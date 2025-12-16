@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+.titulo1{
+    width: auto;
+    height: 80px;
+    background-color: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo1 > h1{
+    color: white;  
+}
