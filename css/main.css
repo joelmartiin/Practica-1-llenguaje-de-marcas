@@ -49,6 +49,8 @@ main {
     margin-top: 10px;
     background-color: rgb(37, 29, 85);
     color: white;
+    width: 30rem;
+    padding-left: 15px;
 }
 
 .columnas {
@@ -78,4 +80,8 @@ main {
 
 .Projectos {
     grid-column: 2;
+}
+
+p {
+    text-align: justify;
 }
