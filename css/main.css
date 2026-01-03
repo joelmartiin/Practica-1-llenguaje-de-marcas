@@ -9,13 +9,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.titulo1 > h1{
     color: white;
 }
 
+.contenedor {
+    display: flex;
+}
+
 .sobre-mi-lateral {
-    height: 600px;
+    height: auto;
     width: 200px;
     background-color: rgb(146, 176, 216);
     padding: 10px;
@@ -37,3 +39,12 @@ body {
     justify-content: center;
     color: black;
 }
+
+main {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.titulos-main{
+    background-color: rgb(37, 29, 85);
+    color: white;
+}   
