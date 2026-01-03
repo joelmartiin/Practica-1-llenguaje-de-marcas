@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
 .titulo1{
@@ -35,4 +35,5 @@ body {
 .titulo {
     display: flex;
     justify-content: center;
+    color: black;
 }
