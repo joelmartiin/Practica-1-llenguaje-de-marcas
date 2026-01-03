@@ -59,3 +59,8 @@ main {
     margin-top: 30px;
 }
 
+.fechas {
+    grid-column: 3;
+    text-align: right;
+}
+
