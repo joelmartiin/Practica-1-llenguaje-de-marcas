@@ -5,7 +5,8 @@ body {
 .titulo1{
     width: auto;
     height: 80px;
-    background-color: rgb(37, 29, 85);
+    background: #251D55;
+    background: linear-gradient(0deg,rgba(37, 29, 85, 1) 0%, rgba(47, 39, 92, 1) 30%, rgba(90, 81, 133, 1) 70%, rgba(154, 147, 191, 1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
