@@ -47,4 +47,10 @@ main {
 .titulos-main{
     background-color: rgb(37, 29, 85);
     color: white;
-}   
+}
+
+.columnas {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1rem;
+}
