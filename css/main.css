@@ -2,6 +2,11 @@ body {
     height: auto;
     width: 100vw;
 }
+
+p {
+    text-align: justify;
+}
+
 .titulo1{
     width: auto;
     height: 80px;
@@ -45,6 +50,7 @@ body {
 main {
     margin-top: 10px;
     margin-left: 20px;
+    padding-right: 2rem;
 }
 .titulos-main{
     margin-top: 10px;
@@ -81,8 +87,4 @@ main {
 
 .Projectos {
     grid-column: 2;
-}
-
-p {
-    text-align: justify;
 }
