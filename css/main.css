@@ -33,6 +33,7 @@ p {
     text-align: justify;
     margin-left: 0.7rem;
     margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
     border-radius: 1.5rem;
 }
 
@@ -106,4 +107,8 @@ main {
 
 .github-link {
     display: block;
+}
+
+.github-link > .titulo {
+    margin-bottom: 1rem;
 }
