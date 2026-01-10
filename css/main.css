@@ -36,6 +36,10 @@ p {
     border-radius: 1.5rem;
 }
 
+.sobre-mi-lateral:hover{
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+}
+
 .sobre-mi-texto {
     height: auto;
     width: 200px;
