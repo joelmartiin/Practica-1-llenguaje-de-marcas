@@ -3,7 +3,6 @@ body {
     margin-top: 100px;
     justify-content: center;
     background: #eee;
-
 }
 
 .contenedor {
@@ -86,41 +85,43 @@ p {
 
 main {
     margin-top: 1rem;
-    margin-left: 1rem;
     width: 75%;
 }
+
+.apartados {
+    display: grid;
+    grid-gap: 1.5rem;
+    flex-direction: column;
+}
+
 .titulos-main{
     margin-top: 1rem;
     background-color: rgb(37, 29, 85);
     color: white;
-    width: 10em;
+    width: 9rem;
     padding-left: 1.5rem;
     border-radius: 1.5rem;
 }
 
 .columnas {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr;
     grid-gap: 1rem;
 }
 
 .cursos {
     margin-top: 1rem;
     grid-column: 1;
+    grid-row: 1 2;
 }
 
 .fechas {
-    grid-column: 3;
+    grid-column: 1;
+    grid-row: 3 4;
     text-align: right;
 }
 
-.apartados {
-    display: grid;
-    grid-gap: 1.5rem;
-}
-
 .FA {
-    grid-column: 1;
     background-color: rgb(37, 29, 85, 30%);
     border-radius: 1rem;
     padding: 0rem 1rem 1rem 1rem;
@@ -131,7 +132,6 @@ main {
 }
 
 .Projectos {
-    grid-column: 2;
     background-color: rgb(37, 29, 85, 30%);
     border-radius: 1rem;
     padding: 0rem 1rem 1rem 1rem;
