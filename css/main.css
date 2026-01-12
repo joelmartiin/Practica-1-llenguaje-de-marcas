@@ -1,9 +1,14 @@
 body {
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding: 0;
+    display: flex;
     margin-top: 80px;
+    justify-content: center;
+    background: #eee;
+
+}
+
+.contenedor {
+    display: flex;
+    width: 70%;
 }
 
 * {
@@ -26,10 +31,6 @@ body {
 
 p {
     text-align: justify;
-}
-
-.contenedor {
-    display: flex;
 }
 
 .titulo-sobre-mi{
@@ -139,7 +140,7 @@ main {
     width: 27rem;
 }
 
-.github-link > .titulo {
+.link > .titulo {
     margin-bottom: 1rem;
 }
 
