@@ -131,6 +131,10 @@ main {
     padding: 0rem 1rem 1rem 1rem;
 }
 
+.Projectos:hover {
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+}
+
 .apartados-projectos {
     width: 27rem;
 }
