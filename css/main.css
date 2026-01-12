@@ -1,6 +1,6 @@
 body {
     display: flex;
-    margin-top: 80px;
+    margin-top: 100px;
     justify-content: center;
     background: #eee;
 
@@ -8,7 +8,7 @@ body {
 
 .contenedor {
     display: flex;
-    width: 70%;
+    width: 80%;
 }
 
 * {
@@ -16,7 +16,7 @@ body {
 }
 
 .titulo1{
-    width: 100%;
+    width: 80%;
     height: 80px;
     background: #251D55;
     background: linear-gradient(0deg,rgba(37, 29, 85, 1) 0%, rgba(47, 39, 92, 1) 30%, rgba(90, 81, 133, 1) 70%, rgba(154, 147, 191, 1) 100%);
@@ -24,6 +24,10 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+
     
     position: fixed;
     top: 0;
