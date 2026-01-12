@@ -149,3 +149,9 @@ main {
     display: block;
     color:black;
 }
+
+.idiomas-skills {
+    display: grid;
+    background-color: rgb(37, 29, 85);
+    grid-template-columns: 3;
+}
