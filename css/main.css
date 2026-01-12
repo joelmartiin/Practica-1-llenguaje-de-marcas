@@ -139,14 +139,11 @@ main {
     width: 27rem;
 }
 
-.github-link {
-    display: block;
-}
-
 .github-link > .titulo {
     margin-bottom: 1rem;
 }
 
 .links {
+    display: block;
     color:black;
 }
