@@ -50,13 +50,15 @@ p {
 
 .sobre-mi-lateral {
     height: auto;
-    width: 25%;
     background-color: rgb(37, 29, 85, 30%);
     text-align: justify;
     margin: 0.7rem;
+    margin-top: 0;
     margin-left: 0;
     border-radius: 1.5rem;
     padding-bottom: 1rem;
+
+    grid-column: 1;
 }
 
 .sobre-mi-lateral:hover{
@@ -85,14 +87,18 @@ p {
 }
 
 main {
+    display: grid;
     margin-top: 1rem;
-    width: 75%;
+    width: 100%;
+    grid-template-columns: 1.2fr 3fr;
+    grid-gap: 1.5rem;
 }
 
 .apartados {
     display: grid;
     grid-gap: 1.5rem;
     flex-direction: column;
+    grid-column: 2 / 3;
 }
 
 .titulos-main{
@@ -112,8 +118,6 @@ main {
 
 .cursos {
     margin-top: 1rem;
-    grid-column: 1 2;
-    grid-row: 1 2;
 }
 
 .fechas {
