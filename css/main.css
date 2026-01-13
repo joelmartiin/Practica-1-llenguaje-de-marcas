@@ -267,4 +267,13 @@ footer:hover {
         padding: 0 1rem;
         font-size: 0.8rem;
     }
+    
+
+    .submenu-de-enlaces {
+        flex-direction: column;
+        gap: 0;
+        top: 0;
+        left: 0;
+        transform: translateX(0) translateY(-10rem);
+    }
 }
