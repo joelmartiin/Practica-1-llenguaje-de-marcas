@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --color-titulo-principal: #251D55;
     --color-titulo-gradiente: linear-gradient(0deg,rgba(37, 29, 85, 1) 0%, rgba(47, 39, 92, 1) 30%, rgba(90, 81, 133, 1) 70%, rgba(154, 147, 191, 1) 100%);
@@ -19,10 +23,15 @@ body {
 .contenedor {
     display: flex;
     width: 65%;
+    scroll-margin-top: 6rem;
 }
 
 * {
     box-sizing: border-box;
+}
+
+p {
+    text-align: justify;
 }
 
 .titulo1{
@@ -41,10 +50,6 @@ body {
     
     position: fixed;
     top: 0;
-}
-
-p {
-    text-align: justify;
 }
 
 .titulo-sobre-mi{
@@ -68,10 +73,6 @@ p {
     padding-bottom: 1rem;
 
     grid-column: 1;
-}
-
-.sobre-mi-lateral:hover{
-    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
 }
 
 .sobre-mi-texto {
@@ -141,18 +142,11 @@ main {
     padding: 0rem 1rem 1rem 1rem;
 }
 
-.FA:hover {
-    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
-}
-
 .Projectos {
     background-color: var(--color-apartados);
     border-radius: 1rem;
     padding: 0rem 1rem 1rem 1rem;
-}
-
-.Projectos:hover {
-    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+    scroll-margin-top: 6rem;
 }
 
 .apartados-projectos {
@@ -177,10 +171,6 @@ main {
     background-color: var(--color-apartados);
     border-radius: 1rem;
     padding: 0rem 1rem 1rem 1rem;
-}
-
-.apartados-final:hover {
-    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
 }
 
 .idiomas {
@@ -212,3 +202,22 @@ footer {
 
 /*ANIMACIONES*/
 
+.sobre-mi-lateral:hover{
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+}
+
+.FA:hover {
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+}
+
+.Projectos:hover {
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+}
+
+.apartados-final:hover {
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+}
+
+footer:hover {
+    box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
+}
