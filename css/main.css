@@ -354,4 +354,8 @@ footer:hover {
     p, h1, h2, h3, h4, h5, h6 {
         margin: 0.3rem 0;
     }
+
+    .FA, .Projectos, .apartados-final, footer {
+        page-break-inside: avoid;
+    }
 }
