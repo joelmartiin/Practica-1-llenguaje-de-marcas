@@ -358,4 +358,11 @@ footer:hover {
     .FA, .Projectos, .apartados-final, footer {
         page-break-inside: avoid;
     }
+
+    body {
+        background: var(--color-blanco);
+        color: var(--color-negro);
+        margin: 0.5cm;
+        font-size: 12pt;
+    }
 }
