@@ -333,5 +333,11 @@ footer:hover {
         box-shadow: none;
         color: var(--color-negro);
         margin-top: 0;
-    }   
+    }
+
+    .titulo1, .contenedor, main, .apartados, .columnas {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
