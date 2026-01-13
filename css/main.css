@@ -308,8 +308,19 @@ footer:hover {
         padding-left: 1rem;
         margin: 0.5rem auto;
     }
-    
+
     .links {
         font-size: 0.9rem;
+    }
+}
+
+
+@media print {
+
+    body, .submenu-de-enlaces, .FA, .Projectos, .apartados-final, footer {
+        background: none;
+        box-shadow: none;
+        color: var(--color-negro);
+        margin-top: 3rem;
     }
 }
