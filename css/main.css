@@ -340,4 +340,10 @@ footer:hover {
         margin: 0;
         padding: 0;
     }
+    
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.9em;
+        color: var(--color-negro);
+    }
 }
