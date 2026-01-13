@@ -183,3 +183,8 @@ main {
 .soft-skills {
     grid-column: 3;
 }
+
+footer {
+    grid-column: 1 / 4;
+    
+}
