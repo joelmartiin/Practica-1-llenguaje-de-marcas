@@ -323,4 +323,15 @@ footer:hover {
         color: var(--color-negro);
         margin-top: 3rem;
     }
+    
+    aside {
+        margin-top: 3rem;
+    }
+
+    .titulo1 {
+        background: none;
+        box-shadow: none;
+        color: var(--color-negro);
+        margin-top: 0;
+    }   
 }
