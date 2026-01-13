@@ -276,4 +276,10 @@ footer:hover {
         left: 0;
         transform: translateX(0) translateY(-10rem);
     }
+    
+    .contenedor {
+        width: 95%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 }
