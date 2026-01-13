@@ -302,4 +302,10 @@ footer:hover {
         width: 8rem;
         margin: 1rem auto;
     }
+
+    .titulos-main {
+        width: 100%;
+        padding-left: 1rem;
+        margin: 0.5rem auto;
+    }
 }
