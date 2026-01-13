@@ -36,7 +36,7 @@ p {
 
 .titulo1{
     width: 70%;
-    height: 80px;
+    height: 5rem;
     background: var(--color-titulo-principal);
     background: var(--color-titulo-gradiente);
     display: flex;
@@ -50,6 +50,39 @@ p {
     
     position: fixed;
     top: 0;
+}
+
+.titulo1 nav {
+    position: relative;
+}
+.submenu-de-enlaces {
+    visibility: hidden;
+    position: absolute;
+    top: 95%;
+    background: var(--color-titulo-principal);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    border-radius: 1rem;
+
+    transform: translateX(0) translateY(0);
+    opacity: 0;
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.titulo1:hover .submenu-de-enlaces,
+.titulo1:focus-within .submenu-de-enlaces {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0) translateY(50%);
+}
+
+.submenu-de-enlaces a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--color-blanco);
 }
 
 .titulo-sobre-mi{
