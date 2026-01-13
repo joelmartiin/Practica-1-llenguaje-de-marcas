@@ -308,4 +308,8 @@ footer:hover {
         padding-left: 1rem;
         margin: 0.5rem auto;
     }
+    
+    .links {
+        font-size: 0.9rem;
+    }
 }
