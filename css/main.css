@@ -254,3 +254,17 @@ footer {
 footer:hover {
     box-shadow: 0.2rem 0.2rem 20px rgb(0, 0, 0, 3);
 }
+
+
+
+
+@media (max-width: 600px) {
+
+    .titulo1 {
+        width: 95%;
+        height: 4rem;
+        margin: 0.5rem auto;
+        padding: 0 1rem;
+        font-size: 0.8rem;
+    }
+}
