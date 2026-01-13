@@ -346,4 +346,8 @@ footer:hover {
         font-size: 0.9em;
         color: var(--color-negro);
     }
+    
+    .iconos, .submenu-de-enlaces {
+        display: none;
+    }
 }
