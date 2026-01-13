@@ -290,4 +290,11 @@ footer:hover {
         width: 100%;
         grid-gap: 1rem;
     }
+    
+    .apartados, .columnas, .idiomas-skills, .apartados-projectos, .FA, .Projectos, .apartados-final {
+        grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
