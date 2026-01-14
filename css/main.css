@@ -76,7 +76,7 @@ p {
 .titulo1:focus-within .submenu-de-enlaces {
     opacity: 1;
     visibility: visible;
-    transform: translateX(0) translateY(50%);
+    transform: translateX(0) translateY(45%);
 }
 
 .submenu-de-enlaces a {
