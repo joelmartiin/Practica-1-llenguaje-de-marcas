@@ -1,1 +1,8 @@
+Este es un proyecto de un portafolios web creado para la primera practica en la clase de lenguaje de marcas, en este se muestre informacion personal sobre mi como los proyectos, estudios o mis habilidades tecnicas y sociales.
+
+En primer plano se ven las diferentes targetas donde se muestra la información, y en la parte superior pegado a la pantalla un encabezado, si pasamos el ratón sobre este se muestra un sub apartado que permite navegar mas facilmente por el portafolios.
+Si continuamos bajando podremos ver diferentes maneras de contactar conmigo y un enlace a mi cuenta de github.
+
+Tecnologies utilitzades: HTML i CSS
+
 Enllaç de Vercel: https://practica-1-lenguaje-de-marcas.vercel.app/
